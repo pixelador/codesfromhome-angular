@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+// Import mock posts data
+import { POSTS } from '../mock-posts';
 
 @Component({
   selector: 'app-posts',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostsComponent implements OnInit {
 
-  title = 'Test Post #1';
+  posts = POSTS;
 
   constructor() { }
 
