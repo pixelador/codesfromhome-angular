@@ -26,4 +26,9 @@ export const POSTS: Post[] = [
     // tslint:disable-next-line:max-line-length
     content: 'Nam fringilla risus sed elit egestas, vel lobortis lectus facilisis. Nullam placerat felis tincidunt tortor sagittis, ut mollis orci dictum. Praesent mollis consequat nisl eu finibus. Donec et posuere velit. Nullam eget volutpat elit. Nam vel purus neque. Nulla vulputate risus a elit bibendum luctus. Cras neque mi, maximus vel enim quis, mattis maximus metus. Duis accumsan semper facilisis. Suspendisse fermentum nibh nec volutpat pharetra.'
   },
+  {id: 16,
+    title: 'Post The Sixth',
+    // tslint:disable-next-line:max-line-length
+    content: 'Nam fringilla risus sed elit egestas, vel lobortis lectus facilisis. Nullam placerat felis tincidunt tortor sagittis, ut mollis orci dictum. Praesent mollis consequat nisl eu finibus. Donec et posuere velit. Nullam eget volutpat elit. Nam vel purus neque. Nulla vulputate risus a elit bibendum luctus. Cras neque mi, maximus vel enim quis, mattis maximus metus. Duis accumsan semper facilisis. Suspendisse fermentum nibh nec volutpat pharetra.'
+  },
 ];
