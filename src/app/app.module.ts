@@ -10,6 +10,8 @@ import { PostsComponent } from './posts/posts.component';
 import { PostDetailComponent } from './post-detail/post-detail.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 
+import { PostService } from './post.service';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    PostService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
